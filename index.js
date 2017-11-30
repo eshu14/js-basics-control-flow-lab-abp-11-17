@@ -28,6 +28,17 @@ function ternaryCheckCity(destn){
   return txt;
 
 };
-function switchOnCharmFromTip(message){
-
+function switchOnCharmFromTip(tip){
+  if(tip==="generous")
+  {
+    msg="Thank you so much.";
+  }
+  elseif(tip==="not as generous")
+  {
+    msg="Thank you."
+  }
+  else {
+    msg="Bye.";
+  }
+  return msg;
 };
