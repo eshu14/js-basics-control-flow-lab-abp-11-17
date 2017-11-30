@@ -1,5 +1,5 @@
 // Write your code in this file!
-let txt="hi";
+let txt='hi';
 function scuberGreetingForFeet(dist)
 {
   if(dist <=400)
