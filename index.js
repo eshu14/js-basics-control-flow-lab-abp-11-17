@@ -1,7 +1,6 @@
 // Write your code in this file!
 let txt="";
 function scuberGreetingForFeet(dist){
-  let txt='';
   if(dist <=400)
   {
     txt="This one is on me!";
@@ -25,15 +24,14 @@ function switchOnCharmFromTip(tip){
   switch tip
   {
     case "generous":
-      msg="Thank you so much.";
+      txt="Thank you so much.";
       break;
     case  "not as generous";
-      msg="Thank you.";
+      txt="Thank you.";
       break;
     default:
-      msg="Bye.";
+      txt="Bye.";
       break;
     }
-  return msg;
+  return txt;
 };
-
