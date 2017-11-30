@@ -1,4 +1,5 @@
 // Write your code in this file!
+let txt="";
 function scuberGreetingForFeet(dist){
   let txt='';
   if(dist <=400)
@@ -35,3 +36,4 @@ function switchOnCharmFromTip(tip){
     }
   return msg;
 };
+
