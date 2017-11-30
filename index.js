@@ -24,14 +24,14 @@ function ternaryCheckCity(destn)
 function switchOnCharmFromTip(tip){
   switch tip
   {
-    case "generous":
-      txt="Thank you so much.";
+    case 'generous':
+      txt='Thank you so much.';
       break;
-    case  "not as generous";
-      txt="Thank you.";
+    case  'not as generous';
+      txt='Thank you.';
       break;
     default:
-      txt="Bye.";
+      txt='Bye.';
       break;
     }
   return txt;
