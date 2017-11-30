@@ -1,9 +1,10 @@
 // Write your code in this file!
 let txt="hi";
-function scuberGreetingForFeet(dist){
+function scuberGreetingForFeet(dist)
+{
   if(dist <=400)
   {
-    txt="This one is on me!";
+    txt='This one is on me!';
   }
   elseif(dist>2000 && dist <=2500)
   {
