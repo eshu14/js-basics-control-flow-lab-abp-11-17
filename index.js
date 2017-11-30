@@ -17,7 +17,7 @@ function scuberGreetingForFeet(dist){
 };
 function ternaryCheckCity(destn)
 {
-  destn==='NYC'? "Ok, sounds good." : "No go.";
+  destn==="NYC"? "Ok, sounds good." : "No go.";
 };
 function switchOnCharmFromTip(tip){
   switch tip
