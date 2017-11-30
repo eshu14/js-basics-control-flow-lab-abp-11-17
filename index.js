@@ -21,9 +21,9 @@ function ternaryCheckCity(destn)
   txt= destn==='NYC' ? 'Ok, sounds good.' : 'No go.';
   return txt;
 };
-/*function switchOnCharmFromTip(tip)
+function switchOnCharmFromTip(tip)
 {
-  switch tip
+  switch (tip)
   {
     case 'generous':
       txt='Thank you so much.';
@@ -36,4 +36,4 @@ function ternaryCheckCity(destn)
       break;
     }
   return txt;
-};*/
+};
