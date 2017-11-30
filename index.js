@@ -6,7 +6,7 @@ function scuberGreetingForFeet(dist)
   {
     txt='This one is on me!';
   }
-  elseif(dist>2000 && dist <=2500)
+  else if(dist>2000 && dist <=2500)
   {
     txt='I will gladly take your thirty bucks.';
   }
